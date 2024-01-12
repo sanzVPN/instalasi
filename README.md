@@ -13,7 +13,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/gemilangvip/autoscript/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://raw.githubusercontent.com/sanzVPN/instalasi/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 ## TESTED ON OS
