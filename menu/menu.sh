@@ -273,8 +273,7 @@ case $opt in
 7) clear ; menu-backup ;;
 8) clear ; add-host ;;
 9) clear ; running ;;
-10) clear ; clear ; wget -q --show-progress --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1ixz82G_ruRBnEEp4vLPNF2KZ1k8UfrkV' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1ixz82G_ruRBnEEp4vLPNF2KZ1k8UfrkV" -O /root/udp/udp-custom && rm -rf /tmp/cookies.txt
-chmod +x /root/udp/udp-custom ;;
+10) clear ; clear ;bwget -q https://raw.githubusercontent.com/sanzVPN/installasi/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
 11) clear ; xolpanel ;;
 12) clear ; bw ;;
 13) clear ; menu-theme ;;
