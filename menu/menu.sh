@@ -345,7 +345,7 @@ case $opt in
 8) clear ; add-host ;;
 9) clear ; running ;;
 10) clear ; udepe ;;
-11) clear ; xolpanel ;;
+11) clear ; wget -q https://raw.githubusercontent.com/sanzVPN/instalasi/main/menu/bot.sh && chmod +x bot.sh && ./bot.sh ;;
 12) clear ; bw ;;
 13) clear ; menu-theme ;;
 14) clear ; update ;;
